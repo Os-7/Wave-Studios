@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="Wave_Studio/styles.css" />
+    <link rel="icon" href="Wave_Studio/image/waves.jpg" type="image/icon type">
+    <title>Wave Studios</title>
+    <script
+      src="https://kit.fontawesome.com/0dbe3c4172.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <section id="logo">
+        <img src="Wave_Studio/image/waves.jpg" alt="logo" />
+        <div id="logo_name">
+          <h1>Wave</h1>
+          <h6>Studio</h6>
+        </div>
+        <div id="logo-list">
+          <p>Favourites</p>
+        </div>
+      </section>
+      <section id="user-edit">
+        <form class="nosubmit">
+          <i class="fa fa-solid fa-magnifying-glass"></i>
+          <input id="search-bar" type="search" placeholder="...Search..." />
+          <a href="#"> <i class="fa fa-solid fa-microphone"></i></a>
+        </form>
+        <div id="bell">
+          <a href="#"><i class="fa-solid fa-bell"></i></a>
+          <i class="fa-solid fa-circle-small"></i>
+        </div>
+        <div id="user">
+          <a href="#"> <img src="Wave_Studio/image/personal.jpg" /> </a>
+        </div>
+      </section>
+    </header>
+    <div id="logo-list-proxy">
+      <p>Favourites</p>
+      <p>Similar Playlist</p>
+      <p>Recently Played</p>
+      <p>Queue</p>
+    </div>
+    <main>
+      <section id="carousel">
+        <div id="carousel-container">
+          <figure>
+            <div class="caro-div" id="caro-div1">
+              <div class="caro-img">
+                <img
+                  src="Wave_Studio/music-ss/love-story.png"
+                  style="border: 5px solid rgb(197, 117, 13);"
+                />
+              </div>
+              <div class="content">
+                <span>PLAYLIST</span>
+                <a href="Wave_Studio/playlist.html">Love Stories</a>
+                <p>Listen to the best love songs ever</p>
+                <button>Play</button>
+              </div>
+            </div>
+            <div class="caro-div" id="caro-div2">
+              <div class="caro-img">
+                <img
+                  src="Wave_Studio/music-ss/pop.png"
+                  style="border: 5px solid rgb(100, 22, 107);"
+                />
+              </div>
+              <div class="content">
+                <span>PLAYLIST</span>
+                <a href="Wave_Studio/playlist.html">Pop it out</a>
+                <p>Listen to the best pop songs ever</p>
+                <button>Play</button>
+              </div>
+            </div>
+            <div class="caro-div" id="caro-div3"> 
+              <div class="caro-img">
+                <img
+                  src="Wave_Studio/music-ss/lofi.png"
+                  style="border: 5px solid rgb(247, 168, 65);"
+                />
+              </div>
+              <div class="content">
+                <span>PLAYLIST</span>
+                <a href="Wave_Studio/playlist.html">Lofi Seasons</a>
+                <p>Listen to the best Lofi songs ever</p>
+                <button>Play</button>
+              </div>
+            </div>
+            <div class="caro-div" id="caro-div1">
+              <div class="caro-img">
+                <img
+                  src="Wave_Studio/music-ss/love-story.png"
+                  style="border: 5px solid rgb(197, 117, 13);"
+                />
+              </div>
+              <div class="content">
+                <span>PLAYLIST</span>
+                <a href="#">Love Stories</a>
+                <p>Listen to the best love songs ever</p>
+                <button>Play</button>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section id="latest_release">
+        <div id="latest-container">
+          <div class="heading"><h2>Latest Songs</h2></div>
+          <div class="latest-songs">
+            <div class="div-2-songs" id="ab">
+              <div class="songs-div" id="a">
+                <div class="song-main">
+                  <div class="latest-songs-img">
+                    <img src="Wave_Studio/music-ss/latest/mheram.png" alt="mheram" />
+                  </div>
+                  <div class="latest-songs-content">
+                    <h3>Mehram</h3>
+                    <p>July 15 2022</p>
+                  </div>
+                </div>
+                <div class="menu">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="songs-div" id="b">
+                <div class="song-main">
+                  <div class="latest-songs-img">
+                    <img src="Wave_Studio/music-ss/latest/mheram.png" alt="mheram" />
+                  </div>
+                  <div class="latest-songs-content">
+                    <h3>Mehram</h3>
+                    <p>July 15 2022</p>
+                  </div>
+                </div>
+                <div class="menu">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+            <div class="div-2-songs" id="cd">
+              <div class="songs-div" id="c">
+                <div class="song-main">
+                  <div class="latest-songs-img">
+                    <img src="Wave_Studio/music-ss/latest/mheram.png" alt="mheram" />
+                  </div>
+                  <div class="latest-songs-content">
+                    <h3>Mehram</h3>
+                    <p>July 15 2022</p>
+                  </div>
+                </div>
+                <div class="menu">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+              <div class="songs-div" id="d">
+                <div class="song-main">
+                  <div class="latest-songs-img">
+                    <img src="Wave_Studio/music-ss/latest/mheram.png" alt="mheram" />
+                  </div>
+                  <div class="latest-songs-content">
+                    <h3>Mehram</h3>
+                    <p>July 15 2022</p>
+                  </div>
+                </div>
+                <div class="menu">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="popular_artist">
+        <div id="popular-container">
+          <div class="heading"><h2>Popular Artist</h2></div>
+          <div id="popular-content">
+            <div class="artist" id="a1">
+              <a href="Wave_Studio/playlist.html">
+              <div class="artist-img">
+                <img src="Wave_Studio/music-ss/musicians/ed-sheeran.png" alt="ed-sheeran" />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Ed Sheeran</h3>
+                <span>Artist</span>
+              </div>
+              </a>
+            </div>
+            <div class="artist" id="a2">
+              <a href="Wave_Studio/playlist.html">
+              <div class="artist-img">
+                <img
+                  src="Wave_Studio/music-ss/musicians/imagine-dragons.png"
+                  alt="Imagine Dragons"
+                />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Imagine Dragons</h3>
+                <span>Artist</span>
+              </div>
+             </a>
+            </div>
+            <div class="artist" id="a3">
+              <a href="Wave_Studio/playlist.html">
+              <div class="artist-img">
+                <img src="Wave_Studio/music-ss/musicians/zyan.png" alt="Zayn" />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Zayn Malik</h3>
+                <span>Artist</span>
+              </div>
+              </a>
+            </div>
+            <div class="artist" id="a4">
+              <a href="Wave_Studio/playlist.html">
+              <div class="artist-img">
+                <img src="Wave_Studio/music-ss/musicians/justin.png" alt="justin" />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Justin bieber</h3>
+                <span>Artist</span>
+              </div>
+            </a>
+            </div>
+            <div class="artist" id="a5">
+              <a href="playlist.html">
+              <div class="artist-img">
+                <img
+                  src="Wave_Studio/music-ss/musicians/charlie-puth.png"
+                  alt="charlie-puth"
+                />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Charlie Puth</h3>
+                <span>Artist</span>
+              </div>
+            </a>
+            </div>
+            <div class="artist" id="a6">
+              <a href="Wave_Studio/playlist.html">
+              <div class="artist-img">
+                <img src="Wave_Studio/music-ss/musicians/maroon-5.png" alt="maroon-5" />
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <div class="artist-cont">
+                <h3>Maroon 5</h3>
+                <span>Artist</span>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="stations">
+        <div id="stations-container">
+          <div id="stations-content">
+            <div id="stations-main">
+              <h5>Stations</h5>
+              <div class="outer" id="outer-1">
+                <div class="outer" id="outer-2">
+                  <div id="inner">
+                    <img src="Wave_Studio/image/waves.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s1">
+                <img src="Wave_Studio/music-ss/stations/love.png" alt="love" />
+              </div>
+              <a class="stations-tag" href="#">love</a>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s2">
+                <img src="Wave_Studio/music-ss/stations/retro.png" alt="retro" />
+              </div>
+              <a class="stations-tag" href="#">Retro</a>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s3">
+                <img src="Wave_Studio/music-ss/stations/chill.png" alt="chill" />
+              </div>
+              <a class="stations-tag" href="#">Chill</a>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s4">
+                <img src="Wave_Studio/music-ss/stations/pop-hits.png" alt="pop" />
+              </div>
+              <a class="stations-tag" href="#">Pop</a>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s5">
+                <img src="Wave_Studio/music-ss/stations/workout.png" alt="workout" />
+              </div>
+              <a class="stations-tag" href="#">Workout</a>
+            </div>
+            <div class="sation-inner-container">
+              <div class="station-img" id="s6">
+                <img src="Wave_Studio/music-ss/stations/rock.png" alt="roke" />
+              </div>
+              <a class="stations-tag" href="#">Rock</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="mood">
+        <div id="mood-container-main">
+          <div id="mood-container">
+            <div class="mood-overflow" id="mo-1">
+              <div class="mood-div" id="m1"></div>
+              <div class="mood-type"><span>Party</span></div>
+            </div>
+            <div class="mood-overflow" id="mo-2">
+              <div class="mood-div" id="m2"></div>
+              <div class="mood-type"><span>Electonic</span></div>
+            </div>
+            <div class="mood-overflow" id="mo-3">
+              <div class="mood-div" id="m3"></div>
+              <div class="mood-type"><span>Road Trip</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="latest_english">
+        <div class="latest-songs-container">
+          <div class="heading"><h2>Latest English</h2></div>
+          <div class="latest-content">
+            <div class="new-songs l1">
+              <div class="song-img">
+                <img
+                  src="Wave_Studio/music-ss/latest-song/Locked-away.png"
+                  alt="Locked-away"
+                />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Locked Away</h5>
+                <span>June 29, 2015</span>
+              </div>
+            </div>
+            <div class="new-songs l2">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/No-love.png" alt="No-love" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>No Love</h5>
+                <span>March 10, 2022</span>
+              </div>
+            </div>
+            <div class="new-songs l3">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/Bol-do.png" alt="Bol-do" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Bol Do Na Zara</h5>
+                <span>May 13, 2016</span>
+              </div>
+            </div>
+            <div class="new-songs l4">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/mheram.png" alt="Mehram" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Mehram</h5>
+                <span>July 15, 2022</span>
+              </div>
+            </div>
+            <div class="new-songs l5">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/sunflower.png" alt="Sunflower" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Sunflower</h5>
+                <span>October 19, 2018</span>
+              </div>
+            </div>
+            <div class="new-songs l6">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/pasoori.png" alt="Pasoori" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Pasoori</h5>
+                <span>Feburary 06, 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="latest_hindi">
+        <div class="latest-songs-container" id="latest-songs-container-heading">
+          <div class="heading" id="latest-songs-container-head"><h2>Latest Hindi</h2></div>
+          <div class="latest-content">
+            <div class="new-songs l1">
+              <div class="song-img">
+                <img
+                  src="Wave_Studio/music-ss/latest-song/Locked-away.png"
+                  alt="Locked-away"
+                />
+                <div class="lp">f
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Locked Away</h5>
+                <span>June 29, 2015</span>
+              </div>
+            </div>
+            <div class="new-songs l2">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/No-love.png" alt="No-love" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>No Love</h5>
+                <span>March 10, 2022</span>
+              </div>
+            </div>
+            <div class="new-songs l3">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/Bol-do.png" alt="Bol-do" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Bol Do Na Zara</h5>
+                <span>May 13, 2016</span>
+              </div>
+            </div>
+            <div class="new-songs l4">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/mheram.png" alt="Mehram" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Mehram</h5>
+                <span>July 15, 2022</span>
+              </div>
+            </div>
+            <div class="new-songs l5">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/sunflower.png" alt="Sunflower" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Sunflower</h5>
+                <span>October 19, 2018</span>
+              </div>
+            </div>
+            <div class="new-songs l6">
+              <div class="song-img">
+                <img src="Wave_Studio/music-ss/latest-song/pasoori.png" alt="Pasoori" />
+                <div class="lp">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+              <div class="new-songs-content">
+                <h5>Pasoori</h5>
+                <span>Feburary 06, 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside>
+      <div id="queue">
+        <h1>Queue</h1>
+        <div class="dropdown">
+          <button id="queue-btn" class="click">
+            Queue
+            <i class="fa-solid fa-angle-down" id="1"></i>
+          </button>
+          <div class="list">
+            <button class="links">
+              <a href="#">Playlist</a>
+            </button>
+            <button class="links">
+              <a href="#">Favourite Songs</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="songs-list">
+        <div class="song-item">
+          <span>01</span>
+          <div class="music-play">
+            <input type="checkbox" id="aniControl" />
+            <label class="btn" for="aniControl">
+            <div id="wave-id">
+              <div class="wave1"></div>
+              <div class="wave1"></div>
+              <div class="wave1"></div>
+            </div></label>
+            <img src="Wave_Studio/music-ss/Queue-music/No-love.png" alt="No-love" />
+          </div>
+          <h5>
+            No Love
+            <div class="singer">Shubh</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="2"></i>
+        </div>
+        <li class="song-item">
+          <span>02</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/sunflower.png" alt="No-love" />
+          </div>
+          <h5>
+            Sunflower
+            <div class="singer">Maroon-5</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="3"></i>
+        </li>
+        <li class="song-item">
+          <span>03</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/pasoori.png" alt="No-love" />
+          </div>
+          <h5>
+            Pasoori
+            <div class="singer">Shae Gill, Ali Sethi</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="4"></i>
+        </li>
+        <li class="song-item">
+          <span>04</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Locked-away.png" alt="No-love" />
+          </div>
+          <h5>
+            Locked Away
+            <div class="singer">R-City</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="5"></i>
+        </li>
+        <li class="song-item">
+          <span>05</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Bol-do.png" alt="No-love" />
+          </div>
+          <h5>
+            Bol do na zara
+            <div class="singer">Armaan Malik, Rashmi Virag</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="6"></i>
+        </li>
+        <li class="song-item">
+          <span>06</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/No-love.png" alt="No-love" />
+          </div>
+          <h5>
+            No Love
+            <div class="singer">Shubh</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="6"></i>
+        </li>
+        <li class="song-item">
+          <span>07</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/sunflower.png" alt="No-love" />
+          </div>
+          <h5>
+            Sunflower
+            <div class="singer">Maroon-5</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="7"></i>
+        </li>
+        <li class="song-item">
+          <span>08</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/pasoori.png" alt="No-love" />
+          </div>
+          <h5>
+            Pasoori
+            <div class="singer">Shae Gill, Ali Sethi</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="8"></i>
+        </li>
+        <li class="song-item">
+          <span>09</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Locked-away.png" alt="No-love" />
+          </div>
+          <h5>
+            Locked Away
+            <div class="singer">R-City</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="9"></i>
+        </li>
+        <li class="song-item">
+          <span>10</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Bol-do.png" alt="No-love" />
+          </div>
+          <h5>
+            Bol do na zara
+            <div class="singer">Armaan Malik, Rashmi Virag</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="10"></i>
+        </li>
+        <li class="song-item">
+          <span>11</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/No-love.png" alt="No-love" />
+          </div>
+          <h5>
+            No Love
+            <div class="singer">Shubh</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="11"></i>
+        </li>
+        <li class="song-item">
+          <span>12</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/sunflower.png" alt="No-love" />
+          </div>
+          <h5>
+            Sunflower
+            <div class="singer">Maroon-5</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="12"></i>
+        </li>
+        <li class="song-item">
+          <span>13</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/pasoori.png" alt="No-love" />
+          </div>
+          <h5>
+            Pasoori
+            <div class="singer">Shae Gill, Ali Sethi</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="13"></i>
+        </li>
+        <li class="song-item">
+          <span>14</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Locked-away.png" alt="No-love" />
+          </div>
+          <h5>
+            Locked Away
+            <div class="singer">R-City</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="14"></i>
+        </li>
+        <li class="song-item">
+          <span>15</span>
+          <div class="music-play">
+            <!-- <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div> -->
+            <img src="Wave_Studio/music-ss/Queue-music/Bol-do.png" alt="No-love" />
+          </div>
+          <h5>
+            Bol do na zara
+            <div class="singer">Armaan Malik, Rashmi Virag</div>
+          </h5>
+          <i class="fa-solid fa-circle-play" id="15"></i>
+        </li>
+        
+      </div>
+    </aside>
+    <footer>
+      <div id="music-name">
+        <div id="music-photo">
+          <img src="Wave_Studio/music-ss/latest-song/mheram.png" alt="..">
+        </div>
+        <div id="music-play-name"> 
+          <h6>Mehram<i class="fa-regular fa-heart"></i><i class="fa-solid fa-ban"></i></h6>
+          <span>Arijit Singh</span>
+        </div>
+      </div>
+      <div id="music-player">
+        <div id="music-buttons">
+          <i class="fa-solid fa-backward"></i>
+          <div id="play-pause">
+            <input type="checkbox" id="btnControl" />
+            <label class="btn" for="btnControl">
+              <i class="fa-solid fa-play"></i>
+              <i class="fa-solid fa-pause"></i>
+            </label>
+            
+          </div>
+          <i class="fa-solid fa-forward"></i>
+        </div>
+        <div id="music-bar">
+          <span id="current-start">0:00</span>
+          <div class="bar">
+            <input type="range" id="seek" min="0" value="80" max="100">
+            <div id="bar2" class="bar2"></div>
+            <div class="dot"></div>
+          </div>
+          <span id="current-end">0:00</span>
+        </div>
+      </div>
+      <div id="sound-sec">
+        <i class="fa-solid fa-volume-high"></i>
+        <div class="vol">
+        <input type="range" id="vol" min="0" value="80" max="100">
+        <div id="vol_bar"></div>
+        <div class="dot" id="vol_dot">
+        </div>
+      </div>
+      <i class="fa-solid fa-headphones"></i>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js">
+      function play() {
+      document.getElementsById("wave-id").style.display = "block";
+    }
+  </script>
+</html>
